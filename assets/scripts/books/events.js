@@ -11,4 +11,6 @@ const addBookHandlers = () => {
   $('#getBooks').on('click', onGetBooks)
 }
 
-module.exports = addBookHandlers
+module.exports = {
+  addBookHandlers
+}

@@ -6,4 +6,6 @@ const getBooks = function () {
   })
 }
 
-module.exports = getBooks
+module.exports = {
+  getBooks
+}
